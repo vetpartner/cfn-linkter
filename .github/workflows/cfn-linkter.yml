@@ -12,6 +12,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: cfn-lint
-      uses: vetparnter/cfn-linkter@dev
+      uses: vetpartner/cfn-linkter@dev
       with:
         args: "**/*.yaml"
